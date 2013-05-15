@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7F5EFB5A-F3C5-42FE-A447-62FD7464A33A}</ProjectGuid>
+    <RootNamespace>jpcsp2c</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Output\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\Output\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Output\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\Output\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Source;..\External\glew\Include;..\External\wxWidgets\Include;..\External\wxWidgets\Include\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;rpcrt4.lib;OpenGL32.lib;GLU32.lib;../Output/Debug/wxBase28.lib;../Output/Debug/wxCore28.lib;../Output/Debug/zlib.lib;../Output/$(Configuration)/glew.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Bin\jpcsp2c.debug.exe</OutputFile>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\Source;..\External\glew\Include;..\External\wxWidgets\Include;..\External\wxWidgets\Include\msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;GLEW_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;GLU32.lib;comctl32.lib;../Output/Release/wxBase28.lib;../Output/Release/wxCore28.lib;../Output/Release/zlib.lib;../Output/$(Configuration)/glew.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\Bin\jpcsp2c.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Format\DeferredStub.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32EntHeader.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32Header.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32ProgramHeader.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32Relocate.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32SectionHeader.cpp" />
+    <ClCompile Include="..\Source\Format\Elf32StubHeader.cpp" />
+    <ClCompile Include="..\Source\Format\FunctionLibrary.cpp" />
+    <ClCompile Include="..\Source\Format\PBP.cpp" />
+    <ClCompile Include="..\Source\Format\PSF.cpp" />
+    <ClCompile Include="..\Source\Format\PSP.cpp" />
+    <ClCompile Include="..\Source\Format\PSPModuleInfo.cpp" />
+    <ClCompile Include="..\Source\Utilities\Error.cpp" />
+    <ClCompile Include="..\Source\Utilities\MulDiv64.cpp" />
+    <ClCompile Include="..\Source\Utilities\wxConfigEmu.cpp" />
+    <ClCompile Include="..\Source\Debugging\Log.cpp" />
+    <ClCompile Include="..\Source\GUI\MainEmuFrame.cpp" />
+    <ClCompile Include="..\Source\GUI\wxDebugger.cpp" />
+    <ClCompile Include="..\Source\GUI\wxMemView.cpp" />
+    <ClCompile Include="..\Source\HLE\Modules.cpp" />
+    <ClCompile Include="..\Source\HLE\pspdisplay.cpp" />
+    <ClCompile Include="..\Source\HLE\pspge.cpp" />
+    <ClCompile Include="..\Source\HLE\pspSysMem.cpp" />
+    <ClCompile Include="..\Source\HLE\psputils.cpp" />
+    <ClCompile Include="..\Source\HLE\SyscallHandler.cpp" />
+    <ClCompile Include="..\Source\HLE\ThreadMan.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Types\PspGeList.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceKernelCallbackInfo.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceKernelThreadInfo.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceModule.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceUid.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Managers\ModuleManager.cpp" />
+    <ClCompile Include="..\Source\HLE\Kernel\Managers\SceUidManager.cpp" />
+    <ClCompile Include="..\Source\HLE\modules\HLEModuleFunction.cpp" />
+    <ClCompile Include="..\Source\HLE\modules\HLEModuleManager.cpp" />
+    <ClCompile Include="..\Source\HLE\modules150\Sample.cpp" />
+    <ClCompile Include="..\Source\HLE\modules150\sceRtc.cpp" />
+    <ClCompile Include="..\Source\HLE\modules150\StdioForUser.cpp" />
+    <ClCompile Include="..\Source\resources\DeleteAllBreakpointsIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\DeleteBreakpointIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\DumpIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\JumpToIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\NewBreakpointIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\PauseIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\PlayIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\ResetToPcIcon_png.cpp" />
+    <ClCompile Include="..\Source\resources\StepIntoIcon_png.cpp" />
+    <ClCompile Include="..\Source\Allegrex\Allegrex.cpp" />
+    <ClCompile Include="..\Source\Allegrex\AllegrexDecoder.cpp" />
+    <ClCompile Include="..\Source\Allegrex\AllegrexInterpreter.cpp" />
+    <ClCompile Include="..\Source\Allegrex\DisAllegrex.cpp" />
+    <ClCompile Include="..\Source\util\Utilities.cpp" />
+    <ClCompile Include="..\Source\Emulator.cpp" />
+    <ClCompile Include="..\Source\Loader.cpp" />
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\Memory.cpp" />
+    <ClCompile Include="..\Source\NIDMapper.cpp" />
+    <ClCompile Include="..\Source\Video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Format\DeferredStub.h" />
+    <ClInclude Include="..\Source\Format\Elf32.h" />
+    <ClInclude Include="..\Source\Format\Elf32EntHeader.h" />
+    <ClInclude Include="..\Source\Format\Elf32Header.h" />
+    <ClInclude Include="..\Source\Format\Elf32ProgramHeader.h" />
+    <ClInclude Include="..\Source\Format\Elf32Relocate.h" />
+    <ClInclude Include="..\Source\Format\Elf32SectionHeader.h" />
+    <ClInclude Include="..\Source\Format\Elf32StubHeader.h" />
+    <ClInclude Include="..\Source\Format\FunctionLibrary.h" />
+    <ClInclude Include="..\Source\Format\PBP.h" />
+    <ClInclude Include="..\Source\Format\PSF.h" />
+    <ClInclude Include="..\Source\Format\PSP.h" />
+    <ClInclude Include="..\Source\Format\PSPModuleInfo.h" />
+    <ClInclude Include="..\Source\Utilities\Error.h" />
+    <ClInclude Include="..\Source\Utilities\MulDiv64.h" />
+    <ClInclude Include="..\Source\Utilities\ShortTypes.h" />
+    <ClInclude Include="..\Source\Utilities\wxConfigEmu.h" />
+    <ClInclude Include="..\Source\Debugging\Log.h" />
+    <ClInclude Include="..\Source\GUI\MainEmuFrame.h" />
+    <ClInclude Include="..\Source\GUI\wxDebugger.h" />
+    <ClInclude Include="..\Source\GUI\wxMemView.h" />
+    <ClInclude Include="..\Source\HLE\Modules.h" />
+    <ClInclude Include="..\Source\HLE\pspdisplay.h" />
+    <ClInclude Include="..\Source\HLE\pspge.h" />
+    <ClInclude Include="..\Source\HLE\pspSysMem.h" />
+    <ClInclude Include="..\Source\HLE\psputils.h" />
+    <ClInclude Include="..\Source\HLE\SyscallHandler.h" />
+    <ClInclude Include="..\Source\HLE\ThreadMan.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\PspGeList.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceKernelCallbackInfo.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceKernelErrors.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceKernelThreadInfo.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceModule.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceUid.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Types\ThreadWaitInfo.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Managers\ModuleManager.h" />
+    <ClInclude Include="..\Source\HLE\Kernel\Managers\SceUidManager.h" />
+    <ClInclude Include="..\Source\HLE\modules\HLEModule.h" />
+    <ClInclude Include="..\Source\HLE\modules\HLEModuleFunction.h" />
+    <ClInclude Include="..\Source\HLE\modules\HLEModuleManager.h" />
+    <ClInclude Include="..\Source\HLE\modules\HLEThread.h" />
+    <ClInclude Include="..\Source\HLE\modules150\dateutil.h" />
+    <ClInclude Include="..\Source\HLE\modules150\Sample.h" />
+    <ClInclude Include="..\Source\HLE\modules150\sceRtc.h" />
+    <ClInclude Include="..\Source\HLE\modules150\StdioForUser.h" />
+    <ClInclude Include="..\Source\Allegrex\Allegrex.h" />
+    <ClInclude Include="..\Source\Allegrex\AllegrexDecoder.h" />
+    <ClInclude Include="..\Source\Allegrex\AllegrexInterpreter.h" />
+    <ClInclude Include="..\Source\Allegrex\DisAllegrex.h" />
+    <ClInclude Include="..\Source\util\Utilities.h" />
+    <ClInclude Include="..\Source\Common.h" />
+    <ClInclude Include="..\Source\ElfLoader.h" />
+    <ClInclude Include="..\Source\Emulator.h" />
+    <ClInclude Include="..\Source\Loader.h" />
+    <ClInclude Include="..\Source\main.h" />
+    <ClInclude Include="..\Source\Memory.h" />
+    <ClInclude Include="..\Source\NIDMapper.h" />
+    <ClInclude Include="..\Source\syscallsFirm15.h" />
+    <ClInclude Include="..\Source\Video.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\External\glew\glew.vcxproj">
+      <Project>{d2b9fff3-9414-4eef-bf5e-e0b031968808}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\External\wxWidgets\build\msw\wx_base_2008.vcxproj">
+      <Project>{48ad7e0a-25b1-4974-a1e3-03f8c438d34f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\External\wxWidgets\build\msw\wx_core_2008.vcxproj">
+      <Project>{0318ba30-ef48-441a-9e10-dc85efae39f0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\External\zlib\zlib_2008.vcxproj">
+      <Project>{3e03c179-8251-46e4-81f4-466f114bac63}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

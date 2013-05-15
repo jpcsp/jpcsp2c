@@ -1,0 +1,5 @@
+
+namespace pspdisplay
+{
+   void sceDisplayWaitVblankStart();
+}

@@ -1,0 +1,18 @@
+﻿Build started 5/15/2013 10:50:54 AM.
+     1>Project "C:\Users\george\Desktop\trunk\External\glew\glew.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\glew.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D GLEW_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\glew.c
+         glew.c
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\Output\Release\glew.lib" /NOLOGO /LTCG Win32\Release\glew.obj
+         glew.vcxproj -> C:\Users\george\Desktop\trunk\External\glew\..\..\Output\Release\glew.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\glew.unsuccessfulbuild".
+         Touching "Win32\Release\glew.lastbuildstate".
+     1>Done Building Project "C:\Users\george\Desktop\trunk\External\glew\glew.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.36

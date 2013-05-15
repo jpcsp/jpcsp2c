@@ -1,0 +1,385 @@
+
+
+jpcsp913\jpcsp\src
+
+05/05/2011  07:11 ££    <DIR>          .
+05/05/2011  07:11 ££    <DIR>          ..
+29/04/2011  01:13 §£               287 getins.awk
+01/05/2011  10:47 ££    <DIR>          jpcsp
+05/05/2011  07:11 ££                 0 out.txt
+               2 File(s)            287 bytes
+
+jpcsp913\jpcsp\src\jpcsp
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££    <DIR>          Allegrex
+29/04/2011  01:15 §£           140.902 Allegrex.isa
+29/04/2011  01:13 §£            31.015 AllegrexOpcodes.java
+01/05/2011  10:47 ££             1.608 Clock.java
+01/05/2011  10:47 ££             5.490 Controller.java
+01/05/2011  10:47 ££    <DIR>          Debugger
+01/05/2011  10:47 ££               789 DefaultSettings.properties
+01/05/2011  10:47 ££            12.292 Emulator.java
+01/05/2011  10:47 ££    <DIR>          filesystems
+01/05/2011  10:47 ££    <DIR>          format
+29/04/2011  01:15 §£               772 GeneralJpcspException.java
+01/05/2011  10:47 ££    <DIR>          graphics
+01/05/2011  10:47 ££    <DIR>          GUI
+01/05/2011  10:47 ££    <DIR>          HLE
+01/05/2011  10:47 ££    <DIR>          icons
+01/05/2011  10:47 ££    <DIR>          images
+01/05/2011  10:47 ££            44.889 Loader.java
+01/05/2011  10:47 ££    <DIR>          log
+01/05/2011  10:47 ££            14.720 MainGUI.form
+01/05/2011  10:47 ££            41.142 MainGUI.java
+01/05/2011  10:47 ££    <DIR>          memory
+01/05/2011  10:47 ££             7.030 Memory.java
+29/04/2011  01:15 §£             2.323 MemoryMap.java
+01/05/2011  10:47 ££             3.561 NIDMapper.java
+29/04/2011  01:15 §£             4.932 Processor.java
+01/05/2011  10:47 ££               996 Recompiler.java.disabled
+29/04/2011  01:15 §£            11.399 Settings.java
+29/04/2011  01:15 §£             1.500 State.java
+01/05/2011  10:47 ££    <DIR>          test
+01/05/2011  10:47 ££    <DIR>          util
+              17 File(s)        325.360 bytes
+
+jpcsp913\jpcsp\src\jpcsp\Allegrex
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:13 §£             9.835 Allegrex.def
+01/05/2011  10:47 ££            27.934 BasicBlock.java.disabled
+29/04/2011  01:15 §£             5.624 BcuState.java
+01/05/2011  10:47 ££            32.821 Common.java
+01/05/2011  10:47 ££    <DIR>          compiler
+29/04/2011  01:15 §£               479 CpuState.java
+29/04/2011  01:15 §£            47.969 Decoder.java
+29/04/2011  01:15 §£             5.904 FpuState.java
+01/05/2011  10:47 ££             7.029 GprState.java
+01/05/2011  10:47 ££           189.336 Instructions.java
+29/04/2011  01:15 §£             5.731 LsuState.java
+01/05/2011  10:47 ££             3.216 MduState.java
+29/04/2011  01:15 §£            30.468 Opcodes.java
+29/04/2011  01:15 §£             7.104 Operations.java
+01/05/2011  10:47 ££            54.567 VfpuState.java
+              14 File(s)        428.017 bytes
+
+jpcsp913\jpcsp\src\jpcsp\Allegrex\compiler
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££            14.764 CodeBlock.java
+01/05/2011  10:47 ££            14.034 CodeInstruction.java
+01/05/2011  10:47 ££             2.592 CodeSequence.java
+01/05/2011  10:47 ££            11.112 Compiler.java
+01/05/2011  10:47 ££             1.911 CompilerClassLoader.java
+01/05/2011  10:47 ££            29.266 CompilerContext.java
+01/05/2011  10:47 ££               836 ICompiler.java
+01/05/2011  10:47 ££             2.228 ICompilerContext.java
+01/05/2011  10:47 ££               846 IExecutable.java
+01/05/2011  10:47 ££            25.967 RuntimeContext.java
+01/05/2011  10:47 ££             1.748 RuntimeThread.java
+01/05/2011  10:47 ££             1.901 SequenceCodeInstruction.java
+01/05/2011  10:47 ££               234 StopThreadException.java
+              13 File(s)        107.439 bytes
+
+jpcsp913\jpcsp\src\jpcsp\Debugger
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:15 §£             4.277 ConsoleWindow.form
+29/04/2011  01:15 §£             9.811 ConsoleWindow.java
+01/05/2011  10:47 ££    <DIR>          DisassemblerModule
+29/04/2011  01:13 §£             2.802 ElfHeaderInfo.form
+29/04/2011  01:15 §£             3.736 ElfHeaderInfo.java
+01/05/2011  10:47 ££    <DIR>          FileLogger
+29/04/2011  01:13 §£             9.048 InstructionCounter.form
+29/04/2011  01:15 §£            16.306 InstructionCounter.java
+01/05/2011  10:47 ££             6.858 MemoryViewer.form
+01/05/2011  10:47 ££            12.734 MemoryViewer.java
+01/05/2011  10:47 ££             3.458 StepFrame.java
+01/05/2011  10:47 ££             4.304 StepLogger.java
+              10 File(s)         73.334 bytes
+
+jpcsp913\jpcsp\src\jpcsp\Debugger\DisassemblerModule
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:46 ££            45.415 DisassemblerFrame.form
+01/05/2011  10:46 ££            55.382 DisassemblerFrame.java
+01/05/2011  10:46 ££            57.201 syscallsFirm15.java
+29/04/2011  01:15 §£             5.145 VfpuFrame.java
+29/04/2011  01:15 §£            26.149 ViewTooltips.java
+               5 File(s)        189.292 bytes
+
+jpcsp913\jpcsp\src\jpcsp\Debugger\FileLogger
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:15 §£             1.487 FileHandleInfo.java
+29/04/2011  01:15 §£             5.573 FileLoggerFrame.form
+01/05/2011  10:46 ££            21.364 FileLoggerFrame.java
+               3 File(s)         28.424 bytes
+
+jpcsp913\jpcsp\src\jpcsp\filesystems
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:15 §£               374 Seekable.java
+29/04/2011  01:15 §£               256 SeekableDataInput.java
+29/04/2011  01:15 §£             1.707 SeekableInputStream.java
+29/04/2011  01:15 §£               534 SeekableRandomFile.java
+01/05/2011  10:47 ££    <DIR>          umdiso
+               4 File(s)          2.871 bytes
+
+jpcsp913\jpcsp\src\jpcsp\filesystems\umdiso
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££    <DIR>          iso9660
+01/05/2011  10:47 ££             7.536 UmdIsoFile.java
+01/05/2011  10:47 ££             9.613 UmdIsoReader.java
+               2 File(s)         17.149 bytes
+
+jpcsp913\jpcsp\src\jpcsp\filesystems\umdiso\iso9660
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:15 §£             1.886 Iso9660Directory.java
+29/04/2011  01:15 §£             3.249 Iso9660File.java
+29/04/2011  01:15 §£             1.403 Iso9660Handler.java
+               3 File(s)          6.538 bytes
+
+jpcsp913\jpcsp\src\jpcsp\format
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:15 §£             1.145 DeferredStub.java
+29/04/2011  01:15 §£             6.086 Elf32.java
+29/04/2011  01:15 §£             3.517 Elf32EntHeader.java
+29/04/2011  01:15 §£             6.411 Elf32Header.java
+29/04/2011  01:15 §£             3.349 Elf32ProgramHeader.java
+29/04/2011  01:15 §£             1.725 Elf32Relocate.java
+29/04/2011  01:15 §£             5.123 Elf32SectionHeader.java
+29/04/2011  01:15 §£             3.659 Elf32StubHeader.java
+29/04/2011  01:15 §£             3.401 FunctionLibrary.java
+29/04/2011  01:15 §£             9.399 PBP.java
+01/05/2011  10:47 ££            15.766 PSF.java
+29/04/2011  01:15 §£             1.225 PSP.java
+29/04/2011  01:15 §£             3.020 PSPModuleInfo.java
+              13 File(s)         63.826 bytes
+
+jpcsp913\jpcsp\src\jpcsp\graphics
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££             3.692 DisplayList.java
+01/05/2011  10:47 ££            37.879 GeCommands.java
+29/04/2011  01:15 §£             7.879 GeDecoder.java
+01/05/2011  10:47 ££               897 shader.frag
+01/05/2011  10:47 ££             4.760 shader.vert
+01/05/2011  10:47 ££    <DIR>          textures
+01/05/2011  10:47 ££               657 Uniforms.java
+01/05/2011  10:47 ££            12.477 VertexInfo.java
+29/04/2011  01:13 §£               919 VertexState.java
+01/05/2011  10:47 ££           128.652 VideoEngine.java
+               9 File(s)        197.812 bytes
+
+jpcsp913\jpcsp\src\jpcsp\graphics\textures
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££             6.034 Texture.java
+01/05/2011  10:47 ££             4.689 TextureCache.java
+               2 File(s)         10.723 bytes
+
+jpcsp913\jpcsp\src\jpcsp\GUI
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:13 §£             4.784 MemStickBrowser.form
+01/05/2011  10:46 ££            16.473 MemStickBrowser.java
+29/04/2011  01:13 §£               931 RecentElement.java
+01/05/2011  10:46 ££            64.601 SettingsGUI.form
+01/05/2011  10:46 ££            61.033 SettingsGUI.java
+29/04/2011  01:13 §£             4.784 UmdBrowser.form
+01/05/2011  10:46 ££            11.685 UmdBrowser.java
+               7 File(s)        164.291 bytes
+
+jpcsp913\jpcsp\src\jpcsp\HLE
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££    <DIR>          kernel
+01/05/2011  10:47 ££             3.342 LoadExec.java
+01/05/2011  10:47 ££    <DIR>          modules
+01/05/2011  10:47 ££             2.133 Modules.java
+01/05/2011  10:47 ££    <DIR>          modules150
+01/05/2011  10:47 ££    <DIR>          modules200
+01/05/2011  10:47 ££    <DIR>          modules271
+01/05/2011  10:47 ££            26.520 pspdisplay.java
+01/05/2011  10:47 ££            20.514 pspge.java
+01/05/2011  10:47 ££            75.154 pspiofilemgr.java
+01/05/2011  10:47 ££            13.801 pspSysMem.java
+01/05/2011  10:47 ££             6.058 psputils.java
+01/05/2011  10:47 ££            40.525 SyscallHandler.java
+01/05/2011  10:47 ££            66.297 ThreadMan.java
+               9 File(s)        254.344 bytes
+
+jpcsp913\jpcsp\src\jpcsp\HLE\kernel
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££    <DIR>          managers
+01/05/2011  10:47 ££             1.887 Managers.java
+01/05/2011  10:47 ££    <DIR>          types
+               1 File(s)          1.887 bytes
+
+jpcsp913\jpcsp\src\jpcsp\HLE\kernel\managers
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+01/05/2011  10:47 ££             6.467 CallbackManager.java.disabled
+01/05/2011  10:47 ££            15.677 EventFlagManager.java
+01/05/2011  10:47 ££            11.854 FplManager.java
+01/05/2011  10:47 ££             2.454 ModuleManager.java
+01/05/2011  10:47 ££            11.303 MutexManager.java
+29/04/2011  01:15 §£             2.700 SceUidManager.java
+01/05/2011  10:47 ££            15.402 SemaManager.java
+01/05/2011  10:47 ££             4.275 SystemTimeManager.java
+01/05/2011  10:47 ££            33.179 ThreadManager.java.disabled
+01/05/2011  10:47 ££             1.606 UidManager.java.disabled
+01/05/2011  10:47 ££            11.883 VplManager.java
+              11 File(s)        116.800 bytes
+
+jpcsp913\jpcsp\src\jpcsp\HLE\kernel\types
+
+
+29/04/2011  01:15 §£             4.413 pspAbstractMemoryMappedStructure.java
+01/05/2011  10:47 ££             1.552 pspGeCallbackData.java
+01/05/2011  10:47 ££             2.291 PspGeList.java
+29/04/2011  01:15 §£             1.843 pspUtilityDialogCommon.java
+29/04/2011  01:15 §£             1.908 SceIoDirent.java
+29/04/2011  01:15 §£             2.456 SceIoStat.java
+01/05/2011  10:47 ££             3.036 SceKernelCallbackInfo.java
+01/05/2011  10:47 ££             3.711 SceKernelErrors.java
+01/05/2011  10:47 ££             1.960 SceKernelEventFlagInfo.java
+01/05/2011  10:47 ££             6.016 SceKernelFplInfo.java
+29/04/2011  01:15 §£             4.141 SceKernelModuleInfo.java
+01/05/2011  10:47 ££             1.937 SceKernelMutexInfo.java
+01/05/2011  10:47 ££             1.742 SceKernelSemaInfo.java
+01/05/2011  10:47 ££             9.587 SceKernelThreadInfo.java
+01/05/2011  10:47 ££             1.593 SceKernelUid.java.disabled
+01/05/2011  10:47 ££             6.312 SceKernelVplInfo.java
+01/05/2011  10:47 ££             7.271 SceModule.java
+01/05/2011  10:47 ££             3.095 SceMpegRingbuffer.java
+01/05/2011  10:47 ££             4.293 ScePspDateTime.java
+29/04/2011  01:15 §£               470 SceUid.java
+01/05/2011  10:47 ££             4.081 SceUtilityMsgDialogParams.java
+01/05/2011  10:47 ££            13.213 SceUtilitySavedataParam.java
+01/05/2011  10:47 ££             1.498 ThreadWaitInfo.java
+              23 File(s)         88.419 bytes
+
+jpcsp913\jpcsp\src\jpcsp\HLE\modules
+
+ 
+HLEModule.java                    SYNCED 913
+HLEModuleFunction.java            WIP progress for 913. Most of functions done
+HLEModuleManager.java             SYNCED 913
+HLEThread.java                    SYNCED 913
+Kernel_Library.java
+LoadCoreForKernel.java
+ModuleMgrForUser.java
+Sample.java
+sceAtrac3plus.java
+sceAudio.java
+sceCtrl.java
+sceDisplay.java
+sceDmac.java
+sceGe_user.java
+sceImpose.java
+sceMpeg.java
+scePower.java
+sceRtc.java
+sceSasCore.java
+sceSuspendForUser.java
+sceUmdUser.java
+sceUtility.java
+StdioForUser.java
+ThreadManForUser.java
+             
+
+jpcsp913\jpcsp\src\jpcsp\HLE\modules150
+
+
+Kernel_Library.java
+LoadCoreForKernel.java
+ModuleMgrForUser.java
+Sample.java                SYNCED 913
+sceAtrac3plus.java
+sceAudio.java
+sceCtrl.java
+sceDisplay.java
+sceDmac.java
+sceGe_user.java
+sceImpose.java
+sceMpeg.java
+scePower.java
+sceRtc.java
+sceSasCore.java
+sceSuspendForUser.java
+sceUmdUser.java
+sceUtility.java 
+StdioForUser.java           SYNCED 913
+ThreadManForUser.java
+              
+
+jpcsp913\jpcsp\src\jpcsp\HLE\modules200
+
+
+sceUmdUser.java
+ 
+
+jpcsp913\jpcsp\src\jpcsp\HLE\modules271
+
+
+ModuleMgrForUser.java
+Sample.java
+
+
+
+jpcsp913\jpcsp\src\jpcsp\log
+
+01/05/2011  10:47 ££    <DIR>          .
+01/05/2011  10:47 ££    <DIR>          ..
+29/04/2011  01:15 §£            12.386 HTMLLayout.java
+29/04/2011  01:15 §£             6.091 LoggingOutputStream.java
+29/04/2011  01:15 §£             4.651 LogWindow.java
+29/04/2011  01:15 §£             8.974 TextPaneAppender.java
+               4 File(s)         32.102 bytes
+
+jpcsp913\jpcsp\src\jpcsp\memory
+
+
+01/05/2011  10:47 ££             9.580 FastMemory.java
+01/05/2011  10:47 ££             4.166 SafeFastMemory.java
+01/05/2011  10:47 ££            10.075 StandardMemory.java
+               3 File(s)         23.821 bytes
+
+
+
+jpcsp913\jpcsp\src\jpcsp\util
+
+
+01/05/2011  10:47 ££             2.514 DurationStatistics.java
+29/04/2011  01:15 §£             1.312 JpcspDialogManager.java
+01/05/2011  10:47 ££             1.237 MetaInformation.java
+29/04/2011  01:15 §£             2.516 OptionPaneMultiple.java
+01/05/2011  10:47 ££            10.153 Utilities.java
+               5 File(s)         17.732 bytes
+
+     Total Files Listed:
+             225 File(s)      2.938.317 bytes
+              83 Dir(s)  63.020.027.904 bytes free

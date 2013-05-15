@@ -1,0 +1,232 @@
+
+jpcsp\Allegrex
+jpcsp\Allegrex.isa
+jpcsp\AllegrexOpcodes.java
+jpcsp\Controller.java
+jpcsp\Debugger
+jpcsp\DefaultSettings.properties
+jpcsp\Emulator.java
+jpcsp\filesystems
+jpcsp\format
+jpcsp\GeneralJpcspException.java
+jpcsp\graphics
+jpcsp\GUI
+jpcsp\HLE
+jpcsp\icons
+jpcsp\images
+jpcsp\Loader.java
+jpcsp\log
+jpcsp\MainGUI.form
+jpcsp\MainGUI.java
+jpcsp\Memory.java
+jpcsp\MemoryMap.java
+jpcsp\NIDMapper.java
+jpcsp\Processor.java
+jpcsp\Recompiler.java
+jpcsp\Settings.java
+jpcsp\State.java
+jpcsp\util
+jpcsp\Allegrex\Allegrex.def
+jpcsp\Allegrex\BasicBlock.java
+jpcsp\Allegrex\BcuState.java
+jpcsp\Allegrex\Common.java
+jpcsp\Allegrex\CpuState.java
+jpcsp\Allegrex\Decoder.java
+jpcsp\Allegrex\FpuState.java
+jpcsp\Allegrex\GprState.java
+jpcsp\Allegrex\Instructions.java
+jpcsp\Allegrex\LsuState.java
+jpcsp\Allegrex\MduState.java
+jpcsp\Allegrex\Opcodes.java
+jpcsp\Allegrex\Operations.java
+jpcsp\Allegrex\VfpuState.java
+jpcsp\Debugger\ConsoleWindow.form
+jpcsp\Debugger\ConsoleWindow.java
+jpcsp\Debugger\DisassemblerModule
+jpcsp\Debugger\ElfHeaderInfo.form
+jpcsp\Debugger\ElfHeaderInfo.java
+jpcsp\Debugger\FileLogger
+jpcsp\Debugger\InstructionCounter.form
+jpcsp\Debugger\InstructionCounter.java
+jpcsp\Debugger\MemoryViewer.form
+jpcsp\Debugger\MemoryViewer.java
+jpcsp\Debugger\StepFrame.java
+jpcsp\Debugger\StepLogger.java
+jpcsp\Debugger\DisassemblerModule\DisassemblerFrame.form
+jpcsp\Debugger\DisassemblerModule\DisassemblerFrame.java
+jpcsp\Debugger\DisassemblerModule\syscallsFirm15.java
+jpcsp\Debugger\DisassemblerModule\VfpuFrame.java
+jpcsp\Debugger\DisassemblerModule\ViewTooltips.java
+jpcsp\Debugger\FileLogger\FileHandleInfo.java
+jpcsp\Debugger\FileLogger\FileLoggerFrame.form
+jpcsp\Debugger\FileLogger\FileLoggerFrame.java
+jpcsp\filesystems\Seekable.java
+jpcsp\filesystems\SeekableDataInput.java
+jpcsp\filesystems\SeekableInputStream.java
+jpcsp\filesystems\SeekableRandomFile.java
+jpcsp\filesystems\umdiso
+jpcsp\filesystems\umdiso\iso9660
+jpcsp\filesystems\umdiso\UmdIsoFile.java
+jpcsp\filesystems\umdiso\UmdIsoReader.java
+jpcsp\filesystems\umdiso\iso9660\Iso9660Directory.java
+jpcsp\filesystems\umdiso\iso9660\Iso9660File.java
+jpcsp\filesystems\umdiso\iso9660\Iso9660Handler.java
+
+FORMAT
+------
+jpcsp\format\DeferredStub.java               synced 734
+jpcsp\format\Elf32.java                      synced 734
+jpcsp\format\Elf32EntHeader.java             synced 734
+jpcsp\format\Elf32Header.java                synced 734
+jpcsp\format\Elf32ProgramHeader.java         synced 734
+jpcsp\format\Elf32Relocate.java              synced 734
+jpcsp\format\Elf32SectionHeader.java         synced 734
+jpcsp\format\Elf32StubHeader.java            synced 734
+jpcsp\format\FunctionLibrary.java            synced 734
+jpcsp\format\PBP.java                        synced 734        //TODO: deleteDir function
+jpcsp\format\PSF.java                        synced 734
+jpcsp\format\PSP.java                        synced 734
+jpcsp\format\PSPModuleInfo.java              synced 734
+
+
+jpcsp\graphics\DisplayList.java
+jpcsp\graphics\GeCommands.java
+jpcsp\graphics\GeDecoder.java
+jpcsp\graphics\textures
+jpcsp\graphics\VertexInfo.java
+jpcsp\graphics\VertexState.java
+jpcsp\graphics\VideoEngine.java
+jpcsp\graphics\textures\Texture.java
+jpcsp\graphics\textures\TextureCache.java
+jpcsp\GUI\MemStickBrowser.form
+jpcsp\GUI\MemStickBrowser.java
+jpcsp\GUI\RecentElement.java
+jpcsp\GUI\SettingsGUI.form
+jpcsp\GUI\SettingsGUI.java
+jpcsp\GUI\UmdBrowser.form
+jpcsp\GUI\UmdBrowser.java
+
+
+jpcsp\HLE
+----------
+jpcsp\HLE\LoadExec.java
+jpcsp\HLE\Managers.java
+jpcsp\HLE\modules
+jpcsp\HLE\Modules.java
+jpcsp\HLE\modules150
+jpcsp\HLE\modules271
+jpcsp\HLE\pspdisplay.java
+jpcsp\HLE\pspge.java                           partial synced with 913
+jpcsp\HLE\pspiofilemgr.java
+jpcsp\HLE\pspSysMem.java                       synced 734
+jpcsp\HLE\psputils.java
+jpcsp\HLE\SyscallHandler.java
+jpcsp\HLE\ThreadMan.java                       synced 913 //not finished
+
+
+
+jpcsp\HLE\kernel\Managers.java
+
+
+
+HLE\kernel\managers
+-------------------
+jpcsp\HLE\kernel\managers\CallbackManager.java
+jpcsp\HLE\kernel\managers\EventFlagManager.java
+jpcsp\HLE\kernel\managers\FplManager.java
+jpcsp\HLE\kernel\managers\ModuleManager.java                        synced 734
+jpcsp\HLE\kernel\managers\SceUidManager.java                        synced 734
+jpcsp\HLE\kernel\managers\SemaphoreManager.java
+jpcsp\HLE\kernel\managers\SystemTimeManager.java
+jpcsp\HLE\kernel\managers\ThreadManager.java
+jpcsp\HLE\kernel\managers\UidManager.java
+jpcsp\HLE\kernel\managers\VplManager.java
+
+jpcsp\HLE\kernel\types
+----------------------
+jpcsp\HLE\kernel\types\pspAbstractMemoryMappedStructure.java
+jpcsp\HLE\kernel\types\pspUtilityDialogCommon.java
+jpcsp\HLE\kernel\types\SceIoDirent.java
+jpcsp\HLE\kernel\types\SceIoStat.java
+jpcsp\HLE\kernel\types\SceKernelCallbackInfo.java                synced 913    
+jpcsp\HLE\kernel\types\SceKernelErrors.java                      synced 913
+jpcsp\HLE\kernel\types\SceKernelEventFlagInfo.java
+jpcsp\HLE\kernel\types\SceKernelFplInfo.java
+jpcsp\HLE\kernel\types\SceKernelModuleInfo.java
+jpcsp\HLE\kernel\types\SceKernelSemaphoreInfo.java 
+jpcsp\HLE\kernel\types\SceKernelThreadInfo.java                    synced 913
+jpcsp\HLE\kernel\types\SceKernelUid.java
+jpcsp\HLE\kernel\types\SceKernelVplInfo.java
+jpcsp\HLE\kernel\types\SceModule.java                              synced 734
+jpcsp\HLE\kernel\types\ScePspDateTime.java
+jpcsp\HLE\kernel\types\SceUid.java                                 synced 734
+jpcsp\HLE\kernel\types\SceUtilityMsgDialogParams.java
+jpcsp\HLE\kernel\types\SceUtilitySavedataParam.java
+----------------------------------ThreadWaitInfo                  synced 913
+----------------------------------PspGeList                       synced 913
+
+jpcsp\HLE\modules\HLEModule.java
+jpcsp\HLE\modules\HLEModuleFunction.java
+jpcsp\HLE\modules\HLEModuleManager.java
+jpcsp\HLE\modules\HLEThread.java
+jpcsp\HLE\modules\Kernel_Library.java
+jpcsp\HLE\modules\LoadCoreForKernel.java
+jpcsp\HLE\modules\ModuleMgrForUser.java
+jpcsp\HLE\modules\Sample.java
+jpcsp\HLE\modules\sceAtrac3plus.java
+jpcsp\HLE\modules\sceAudio.java
+jpcsp\HLE\modules\sceCtrl.java
+jpcsp\HLE\modules\sceDisplay.java
+jpcsp\HLE\modules\sceGe_user.java
+jpcsp\HLE\modules\sceImpose.java
+jpcsp\HLE\modules\sceMpeg.java
+jpcsp\HLE\modules\scePower.java
+jpcsp\HLE\modules\sceRtc.java
+jpcsp\HLE\modules\sceSuspendForUser.java
+jpcsp\HLE\modules\sceUmdUser.java
+jpcsp\HLE\modules\sceUtility.java
+jpcsp\HLE\modules\StdioForUser.java
+jpcsp\HLE\modules\ThreadManForUser.java
+jpcsp\HLE\modules150\Kernel_Library.java
+jpcsp\HLE\modules150\LoadCoreForKernel.java
+jpcsp\HLE\modules150\ModuleMgrForUser.java
+jpcsp\HLE\modules150\Sample.java
+jpcsp\HLE\modules150\sceAtrac3plus.java
+jpcsp\HLE\modules150\sceAudio.java
+jpcsp\HLE\modules150\sceCtrl.java
+jpcsp\HLE\modules150\sceDisplay.java
+jpcsp\HLE\modules150\sceGe_user.java
+jpcsp\HLE\modules150\sceImpose.java
+jpcsp\HLE\modules150\sceMpeg.java
+jpcsp\HLE\modules150\scePower.java
+jpcsp\HLE\modules150\sceRtc.java
+jpcsp\HLE\modules150\sceSasCore.java
+jpcsp\HLE\modules150\sceSuspendForUser.java
+jpcsp\HLE\modules150\sceUmdUser.java
+jpcsp\HLE\modules150\sceUtility.java
+jpcsp\HLE\modules150\StdioForUser.java
+jpcsp\HLE\modules150\ThreadManForUser.java
+jpcsp\HLE\modules271\Sample.java
+jpcsp\icons\DeleteAllBreakpointsIcon.png
+jpcsp\icons\DeleteBreakpointIcon.png
+jpcsp\icons\Dump.png
+jpcsp\icons\JumpTo.png
+jpcsp\icons\NewBreakpointIcon.png
+jpcsp\icons\PauseIcon.png
+jpcsp\icons\PlayIcon.png
+jpcsp\icons\ResetToPc.png
+jpcsp\icons\StepIntoIcon.png
+jpcsp\icons\StepOutIcon.png
+jpcsp\icons\StepOverIcon.png
+jpcsp\icons\StopIcon.png
+jpcsp\icons\tick.gif
+jpcsp\images\controls.jpg
+jpcsp\log\HTMLLayout.java
+jpcsp\log\LoggingOutputStream.java
+jpcsp\log\LogWindow.java
+jpcsp\log\TextPaneAppender.java
+jpcsp\util\DurationStatistics.java
+jpcsp\util\JpcspDialogManager.java
+jpcsp\util\MetaInformation.java
+jpcsp\util\OptionPaneMultiple.java
+jpcsp\util\Utilities.java

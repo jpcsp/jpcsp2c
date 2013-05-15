@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Format">
+      <UniqueIdentifier>{b9d21c00-9891-4f5a-9431-efbfe545d0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{28f6de14-da5e-4231-bc4c-c755f059415c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{abedb238-dec9-4895-9197-b3236cd3e61c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{706b1a7c-784c-4412-8853-5b437e0f8ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLE">
+      <UniqueIdentifier>{11ba12d3-2795-4252-b7a5-b05ba456204f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLE\Kernel">
+      <UniqueIdentifier>{e009c494-b48d-4389-b234-56e08d5eb276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLE\Kernel\Types">
+      <UniqueIdentifier>{d5c6a597-054e-4fac-9e6b-2e647b851c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLE\Kernel\Managers">
+      <UniqueIdentifier>{7a422178-cdfe-4be4-a941-01c1d0ddc950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLE\modules">
+      <UniqueIdentifier>{ea2df936-0c85-4abe-a11d-f9b3dc976740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLE\modules150">
+      <UniqueIdentifier>{dc64895e-3575-416a-8e3e-608abbfe4903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{b9c6b27f-60d4-4c76-83ca-6c1d33ab58d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Allegrex">
+      <UniqueIdentifier>{66fdca5f-b0b5-48d2-98fd-4d474451e219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{5b28223b-5957-412b-8027-64d19f51c373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Format\DeferredStub.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32EntHeader.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32Header.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32ProgramHeader.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32Relocate.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32SectionHeader.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\Elf32StubHeader.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\FunctionLibrary.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\PBP.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\PSF.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\PSP.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Format\PSPModuleInfo.cpp">
+      <Filter>Format</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\Error.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\MulDiv64.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utilities\wxConfigEmu.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Debugging\Log.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GUI\MainEmuFrame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GUI\wxDebugger.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GUI\wxMemView.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Modules.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\pspdisplay.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\pspge.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\pspSysMem.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\psputils.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\SyscallHandler.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\ThreadMan.cpp">
+      <Filter>HLE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Types\PspGeList.cpp">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceKernelCallbackInfo.cpp">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceKernelThreadInfo.cpp">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceModule.cpp">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Types\SceUid.cpp">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Managers\ModuleManager.cpp">
+      <Filter>HLE\Kernel\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\Kernel\Managers\SceUidManager.cpp">
+      <Filter>HLE\Kernel\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\modules\HLEModuleFunction.cpp">
+      <Filter>HLE\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\modules\HLEModuleManager.cpp">
+      <Filter>HLE\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\modules150\Sample.cpp">
+      <Filter>HLE\modules150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\modules150\sceRtc.cpp">
+      <Filter>HLE\modules150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\HLE\modules150\StdioForUser.cpp">
+      <Filter>HLE\modules150</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\DeleteAllBreakpointsIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\DeleteBreakpointIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\DumpIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\JumpToIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\NewBreakpointIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\PauseIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\PlayIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\ResetToPcIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\resources\StepIntoIcon_png.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Allegrex\Allegrex.cpp">
+      <Filter>Allegrex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Allegrex\AllegrexDecoder.cpp">
+      <Filter>Allegrex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Allegrex\AllegrexInterpreter.cpp">
+      <Filter>Allegrex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Allegrex\DisAllegrex.cpp">
+      <Filter>Allegrex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\util\Utilities.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Emulator.cpp" />
+    <ClCompile Include="..\Source\Loader.cpp" />
+    <ClCompile Include="..\Source\main.cpp" />
+    <ClCompile Include="..\Source\Memory.cpp" />
+    <ClCompile Include="..\Source\NIDMapper.cpp" />
+    <ClCompile Include="..\Source\Video.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Format\DeferredStub.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32EntHeader.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32Header.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32ProgramHeader.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32Relocate.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32SectionHeader.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\Elf32StubHeader.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\FunctionLibrary.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\PBP.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\PSF.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\PSP.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Format\PSPModuleInfo.h">
+      <Filter>Format</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utilities\Error.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utilities\MulDiv64.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utilities\ShortTypes.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utilities\wxConfigEmu.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Debugging\Log.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GUI\MainEmuFrame.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GUI\wxDebugger.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GUI\wxMemView.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Modules.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\pspdisplay.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\pspge.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\pspSysMem.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\psputils.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\SyscallHandler.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\ThreadMan.h">
+      <Filter>HLE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\PspGeList.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceKernelCallbackInfo.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceKernelErrors.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceKernelThreadInfo.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceModule.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\SceUid.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Types\ThreadWaitInfo.h">
+      <Filter>HLE\Kernel\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Managers\ModuleManager.h">
+      <Filter>HLE\Kernel\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\Kernel\Managers\SceUidManager.h">
+      <Filter>HLE\Kernel\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules\HLEModule.h">
+      <Filter>HLE\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules\HLEModuleFunction.h">
+      <Filter>HLE\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules\HLEModuleManager.h">
+      <Filter>HLE\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules\HLEThread.h">
+      <Filter>HLE\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules150\dateutil.h">
+      <Filter>HLE\modules150</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules150\Sample.h">
+      <Filter>HLE\modules150</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules150\sceRtc.h">
+      <Filter>HLE\modules150</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\HLE\modules150\StdioForUser.h">
+      <Filter>HLE\modules150</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Allegrex\Allegrex.h">
+      <Filter>Allegrex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Allegrex\AllegrexDecoder.h">
+      <Filter>Allegrex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Allegrex\AllegrexInterpreter.h">
+      <Filter>Allegrex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Allegrex\DisAllegrex.h">
+      <Filter>Allegrex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\util\Utilities.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common.h" />
+    <ClInclude Include="..\Source\ElfLoader.h" />
+    <ClInclude Include="..\Source\Emulator.h" />
+    <ClInclude Include="..\Source\Loader.h" />
+    <ClInclude Include="..\Source\main.h" />
+    <ClInclude Include="..\Source\Memory.h" />
+    <ClInclude Include="..\Source\NIDMapper.h" />
+    <ClInclude Include="..\Source\syscallsFirm15.h" />
+    <ClInclude Include="..\Source\Video.h" />
+  </ItemGroup>
+</Project>
