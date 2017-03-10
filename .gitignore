@@ -1,0 +1,13 @@
+Bin/*
+External/glew/*
+External/wxWidgets/build/msw/wxBase28_Win32/*
+External/wxWidgets/build/msw/wxCore28_Win32/*
+External/zlib/Win32/*
+Output/Debug/*
+Output/Release/*
+VC/.vs/jpcsp2c/v14/.suo
+VC/ipch/WX_BASE_2008-21d657bb/WXBASE28-5c0f561c.ipch
+VC/ipch/WX_CORE_2008-bc50de49/WXCORE28-a24822f8.ipch
+VC/ipch/WX_CORE_2008-bc50de49/WXCORE28-e56fcffe.ipch
+VC/jpcsp2c.VC.db
+VC/jpcsp2c.VC.VC.opendb

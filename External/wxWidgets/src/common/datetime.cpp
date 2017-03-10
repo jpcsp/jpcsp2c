@@ -201,7 +201,7 @@ wxCUSTOM_TYPE_INFO(wxDateTime, wxToStringConverter<wxDateTime> , wxFromStringCon
         #define WX_TIMEZONE wxGetTimeZone()
         #endif
     #else // unknown platform - try timezone
-        #define WX_TIMEZONE timezone
+        #define WX_TIMEZONE 
     #endif
 #endif // !WX_TIMEZONE && !WX_GMTOFF_IN_TM
 
@@ -429,7 +429,8 @@ static int GetTimeZone()
         // cases we have to negate it
         gmtoffset = -tm.tm_gmtoff;
 #else // !WX_GMTOFF_IN_TM
-        gmtoffset = WX_TIMEZONE;
+		long timeZone = 0; _get_timezone(&timeZone);
+        gmtoffset = timeZone;
 #endif // WX_GMTOFF_IN_TM/!WX_GMTOFF_IN_TM
     }
 
